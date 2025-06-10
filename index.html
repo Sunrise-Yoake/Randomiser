@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Рандомайзер</title>
+</head>
+<body>
+    <div class="container">
+        <h1>🎲</h1>
+        
+        <div class="controls">
+            <label for="names">Список</label>
+            <textarea id="names"></textarea>
+            
+            <div class="input-group">
+                <input type="text" id="newWord" placeholder="Введите новое слово">
+                <button id="addBtn" onclick="addWord()">Добавить</button>
+            </div>
+        </div>
+        
+        <button onclick="generate()">🎲 Назначить столы</button>
+        
+        <div id="result"></div>
+        
+        <div id="history"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
