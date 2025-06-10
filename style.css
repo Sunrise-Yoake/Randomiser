@@ -37,7 +37,7 @@ button:hover {
     background-color: #2980b9;
 }
 #addBtn {
-    background-color: #2ecc71; /* Зелёный для кнопки "Добавить" */
+    background-color: #2ecc71;
 }
 #addBtn:hover {
     background-color: #27ae60;
